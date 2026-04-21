@@ -59,9 +59,3 @@ O código “de verdade” está sendo migrado para `app/` (orientado a objetos)
   - utilitários (ex.: gerador de SKU/EAN)
 - `styles.css`
   - design system (cores, botões, forms, tabelas, header/nav)
-
-## Próximos passos sugeridos (OOP)
-
-- Criar `Controllers/` e mover a lógica dos arquivos `create-*.php` / `update-*.php` para classes.
-- Criar `Repositories/` (ex.: `ProductRepository`, `OrderRepository`) para isolar SQL.
-- Opcional: adicionar um “front controller”/router (`index.php?route=...`) e manter os arquivos antigos como “shims”.
